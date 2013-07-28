@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'license.txt' }
   s.author       = { "Ernesto García" => "", "Paul Schlyter" => "pausch@stjarnhimlen.se" }
   s.source       = { :git => "https://github.com/erndev/EDSunriseSet.git", :tag => s.version.to_s }
+  s.requires_arc = true
   s.source_files = '*.{h,m}'
 end
